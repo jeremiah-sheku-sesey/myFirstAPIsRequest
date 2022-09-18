@@ -48,3 +48,21 @@ const fetctAPIs = (ourFetchUrl)=>{
   setTimeout(()=>{
     fetctAPIs(apiUrl);
   }, 5000)
+
+
+
+
+
+ // Let us write some fetchAPIs() syntax
+// Fetch(‘url’)
+// .then((response)=>{
+// return response.JSON();
+// })
+// .then((data)=>{
+// const data = data;
+// console.log(data);
+// //let say we are have array of an object of foods.
+// console.log(data[0].fish);
+// })
+// .catch( (error)=>
+// {   console.log(error)  });
